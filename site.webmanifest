@@ -4,8 +4,8 @@
   "description": "Café, pizza y hamburguesas en el corazón de Cártama (Málaga).",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FBF3E7",
-  "theme_color": "#C97B3C",
+  "background_color": "#111111",
+  "theme_color": "#FFDD00",
   "icons": [
     {
       "src": "img/favicon-16.png",

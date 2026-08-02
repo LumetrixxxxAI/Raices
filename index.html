@@ -25,7 +25,7 @@
 <link rel="icon" href="img/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
-<meta name="theme-color" content="#D97F35">
+<meta name="theme-color" content="#FFDD00">
 
 <link rel="stylesheet" href="css/style.css">
 
@@ -77,7 +77,7 @@
 <!-- ============ HEADER ============ -->
 <header class="site-header" id="header">
   <div class="container">
-    <a href="#inicio" class="logo"><span class="leaf">🌿</span> Raíces</a>
+    <a href="#inicio" class="logo"><span class="flame">🔥</span> Raíces</a>
     <nav class="nav-links" id="navLinks">
       <a href="#carta">La carta</a>
       <a href="#especialidades">Especialidades</a>
@@ -107,8 +107,8 @@
   </div>
   <div class="container hero-content">
     <span class="hero-badge">⭐ 4,7 en Google</span>
-    <h1>Café, pizza y <em>hamburguesas</em> en el corazón de Cártama.</h1>
-    <p>Buen café, mejor pizza. Y hamburguesas que enamoran. Producto de verdad, ambiente cálido y esa sensación de estar en casa — pero con mejor menú.</p>
+    <h1>Pizza, burgers y café <em>sin filtros</em> en el corazón de Cártama.</h1>
+    <p>Sabor de food truck, ingredientes de verdad y cero postureo. Ven con hambre — aquí se come con las manos.</p>
     <div class="hero-actions">
       <a href="#carta" class="btn btn-outline">Ver la carta</a>
       <a href="https://wa.me/34600000000?text=Hola%20Ra%C3%ADces%2C%20quiero%20reservar%20mesa" class="btn btn-primary">Reservar / Pedir por WhatsApp</a>
@@ -120,8 +120,13 @@
   </a>
 </section>
 
-<div class="wave-divider">
-  <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,32 C240,90 480,0 720,24 C960,48 1200,90 1440,40 L1440,90 L0,90 Z" fill="#FBF3E7"></path></svg>
+<div class="marquee-strip" aria-hidden="true">
+  <div class="marquee-track">
+    <span>🔥 PIZZA · BURGERS · CAFÉ DE ESPECIALIDAD · CÁRTAMA 🔥</span>
+    <span>🔥 PIZZA · BURGERS · CAFÉ DE ESPECIALIDAD · CÁRTAMA 🔥</span>
+    <span>🔥 PIZZA · BURGERS · CAFÉ DE ESPECIALIDAD · CÁRTAMA 🔥</span>
+    <span>🔥 PIZZA · BURGERS · CAFÉ DE ESPECIALIDAD · CÁRTAMA 🔥</span>
+  </div>
 </div>
 
 <!-- ============ LA CARTA ============ -->
@@ -221,6 +226,8 @@
   </div>
 </section>
 
+<div class="zig-divider" style="--zig-from: var(--paper); --zig-to: var(--black);"></div>
+
 <!-- ============ ESPECIALIDADES ============ -->
 <section class="specialties-section section-pad" id="especialidades">
   <div class="container">
@@ -259,19 +266,21 @@
   </div>
 </section>
 
+<div class="zig-divider" style="--zig-from: var(--black); --zig-to: var(--paper);"></div>
+
 <!-- ============ SOBRE RAÍCES ============ -->
 <section class="section-pad" id="sobre-nosotros">
   <div class="container about-section">
     <div class="about-media reveal">
-      <!-- PLACEHOLDER: foto de interior con madera y plantas -->
-      <img src="img/sobre-raices-interior.svg" alt="Interior acogedor de Raíces con madera y plantas">
-      <div class="leaf-accent"><strong>100%</strong> casero</div>
+      <!-- PLACEHOLDER: foto de interior urbano, neón, ladrillo visto, arte callejero -->
+      <img src="img/sobre-raices-interior.svg" alt="Interior urbano de Raíces con neón y arte callejero">
+      <div class="stamp-accent"><strong>100%</strong> CASERO</div>
     </div>
     <div class="about-text reveal">
       <span class="eyebrow">Sobre Raíces</span>
-      <h2 class="section-title">Un rincón con <em>raíces</em>, en el centro de Cártama</h2>
-      <p>Nacimos con una idea sencilla: crear un sitio donde apeteciera quedarse. Madera cálida, plantas por todas partes, luz natural y una carta que mezcla lo mejor del café de especialidad con la pizza y la hamburguesa de toda la vida, hechas como Dios manda.</p>
-      <p>Aquí no hay prisa. Se viene a desayunar con calma, a comer una pizza entre amigos o a pedir la hamburguesa para llevar un viernes cualquiera. Producto fresco, proveedores de cercanía y un equipo que te trata como si llevaras toda la vida viniendo — aunque sea tu primera vez.</p>
+      <h2 class="section-title">Con <em>raíces</em> de barrio, en el centro de Cártama</h2>
+      <p>Raíces nació de las ganas de traer el rollo de food truck y mercado callejero a Cártama: producto real, raciones generosas y cero postureo. Aquí no hay manteles de gala — hay sabor directo, de la brasa a tu mesa.</p>
+      <p>Se come con las manos, se pide por WhatsApp y se repite seguro. Trabajamos con proveedores de cercanía, masa madre propia y salsas que hacemos nosotros — porque el buen rollo también se cocina.</p>
       <div class="about-stats">
         <div><strong>4,7★</strong><span>en Google</span></div>
         <div><strong>100%</strong><span>producto fresco</span></div>
@@ -280,6 +289,8 @@
     </div>
   </div>
 </section>
+
+<div class="zig-divider" style="--zig-from: var(--paper); --zig-to: var(--black);"></div>
 
 <!-- ============ GALERÍA / INSTAGRAM ============ -->
 <section class="gallery-section section-pad" id="galeria">
@@ -306,6 +317,8 @@
     </div>
   </div>
 </section>
+
+<div class="zig-divider" style="--zig-from: var(--black); --zig-to: var(--paper);"></div>
 
 <!-- ============ OPINIONES ============ -->
 <section class="reviews-section section-pad" id="resenas">
@@ -427,13 +440,15 @@
   </div>
 </section>
 
+<div class="zig-divider" style="--zig-from: var(--paper); --zig-to: var(--black);"></div>
+
 <!-- ============ FOOTER ============ -->
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="#inicio" class="logo"><span class="leaf">🌿</span> Raíces</a>
-        <p>Cafetería, pizzería y hamburguesería en el corazón de Cártama (Málaga). Buen café, mejor pizza, y hamburguesas que enamoran.</p>
+        <a href="#inicio" class="logo"><span class="flame">🔥</span> Raíces</a>
+        <p>Pizza, burgers y café con actitud de calle, en el corazón de Cártama (Málaga). Sabor de food truck, sin postureo.</p>
         <div class="footer-social">
           <a href="https://www.instagram.com/cafeteria_pizzeria_raices/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
           <a href="https://wa.me/34600000000" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>

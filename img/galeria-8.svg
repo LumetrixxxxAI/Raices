@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img" aria-label="FOTO">
   <defs>
     <linearGradient id="g-galeria-8.svg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#DDEAD1"/>
-      <stop offset="100%" stop-color="#5C8A5C"/>
+      <stop offset="0%" stop-color="#161616"/>
+      <stop offset="100%" stop-color="#3A0F0C"/>
     </linearGradient>
-    <pattern id="dots-galeria-8.svg" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.6" fill="rgba(255,255,255,0.18)"/>
+    <pattern id="dots-galeria-8.svg" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.8" fill="rgba(255,221,0,0.16)"/>
     </pattern>
   </defs>
   <rect width="500" height="500" fill="url(#g-galeria-8.svg)"/>
   <rect width="500" height="500" fill="url(#dots-galeria-8.svg)"/>
-  <g transform="translate(250, 250)" text-anchor="middle" font-family="Poppins, Arial, sans-serif">
-    <circle r="71.42857142857143" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
-    <text y="8" font-size="76.92307692307692" fill="#fff">📷</text>
-    <text y="123" font-size="23" font-weight="700" fill="#fff" style="letter-spacing:0.5px">FOTO</text>
-    <text y="145" font-size="12" fill="rgba(255,255,255,0.9)">Galería 8</text>
+  <rect x="10" y="10" width="480" height="480" fill="none" stroke="#FFDD00" stroke-width="4" stroke-dasharray="14 10"/>
+  <g transform="translate(250, 250)" text-anchor="middle" font-family="Arial, sans-serif">
+    <circle r="71.42857142857143" fill="rgba(255,221,0,0.14)" stroke="#FFDD00" stroke-width="2.5"/>
+    <text y="8" font-size="76.92307692307692" fill="#FFDD00">📷</text>
+    <text y="125" font-size="25" font-weight="900" fill="#FFDD00" style="letter-spacing:0.5px">FOTO</text>
+    <text y="147" font-size="12" fill="#FFFFFF" opacity="0.85">Galería 8</text>
   </g>
-  <rect x="0" y="0" width="500" height="500" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="6"/>
 </svg>
