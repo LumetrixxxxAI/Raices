@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450" role="img" aria-label="FOTO PENDIENTE">
+  <defs>
+    <linearGradient id="g-menu-bebidas.svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E2C7"/>
+      <stop offset="100%" stop-color="#8B5E34"/>
+    </linearGradient>
+    <pattern id="dots-menu-bebidas.svg" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="rgba(255,255,255,0.18)"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="450" fill="url(#g-menu-bebidas.svg)"/>
+  <rect width="600" height="450" fill="url(#dots-menu-bebidas.svg)"/>
+  <g transform="translate(300, 225)" text-anchor="middle" font-family="Poppins, Arial, sans-serif">
+    <circle r="64.28571428571429" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
+    <text y="8" font-size="69.23076923076923" fill="#fff">📷</text>
+    <text y="117" font-size="27" font-weight="700" fill="#fff" style="letter-spacing:0.5px">FOTO PENDIENTE</text>
+    <text y="140" font-size="13" fill="rgba(255,255,255,0.9)">Bebidas</text>
+  </g>
+  <rect x="0" y="0" width="600" height="450" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="6"/>
+</svg>

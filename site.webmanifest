@@ -1,0 +1,26 @@
+{
+  "name": "Raíces - Cafetería, Pizzería y Hamburguesería",
+  "short_name": "Raíces",
+  "description": "Café, pizza y hamburguesas en el corazón de Cártama (Málaga).",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF3E7",
+  "theme_color": "#C97B3C",
+  "icons": [
+    {
+      "src": "img/favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "img/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "img/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

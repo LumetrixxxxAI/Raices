@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="FOTO PENDIENTE">
+  <defs>
+    <linearGradient id="g-hero-bg.svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DDEAD1"/>
+      <stop offset="100%" stop-color="#5C8A5C"/>
+    </linearGradient>
+    <pattern id="dots-hero-bg.svg" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="rgba(255,255,255,0.18)"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#g-hero-bg.svg)"/>
+  <rect width="1600" height="1000" fill="url(#dots-hero-bg.svg)"/>
+  <g transform="translate(800, 500)" text-anchor="middle" font-family="Poppins, Arial, sans-serif">
+    <circle r="142.85714285714286" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
+    <text y="8" font-size="153.84615384615384" fill="#fff">📷</text>
+    <text y="273" font-size="73" font-weight="700" fill="#fff" style="letter-spacing:0.5px">FOTO PENDIENTE</text>
+    <text y="319" font-size="36" fill="rgba(255,255,255,0.9)">Hero: hamburguesa/pizza estrella o fachada del local</text>
+  </g>
+  <rect x="0" y="0" width="1600" height="1000" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="6"/>
+</svg>
