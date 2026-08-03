@@ -865,25 +865,53 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 640px) {
-  .container { padding: 0 18px; }
-  .section-pad { padding: 56px 0; }
-  .hero { padding: calc(var(--header-h) + 24px) 0 36px; }
-  .hero-media { max-width: 280px; }
-  .logo-img { width: 42px; height: 42px; }
-  .logo { font-size: 1.5rem; }
-  .menu-grid { grid-template-columns: 1fr; gap: 20px; }
-  .specialties-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
-  .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 150px; }
+  :root { --header-h: 64px; }
+  .container { padding: 0 16px; }
+  .section-pad { padding: 44px 0; }
+  .eyebrow { font-size: 0.72rem; margin-bottom: 10px; }
+  .section-title { font-size: 1.7rem; margin-bottom: 10px; }
+  .section-sub { font-size: 0.94rem; }
+  .section-head { margin-bottom: 34px; }
+  .btn { padding: 12px 22px; font-size: 0.85rem; gap: 8px; }
+  .btn-sm { padding: 9px 16px; font-size: 0.76rem; }
+  .logo-img { width: 36px; height: 36px; }
+  .logo { font-size: 1.25rem; gap: 7px; }
+  .nav-links { padding: 18px 20px; }
+  .nav-links a { font-size: 1.15rem; padding: 12px 4px; }
+  .hero { padding: calc(var(--header-h) + 18px) 0 30px; }
+  .hero-media { max-width: 240px; }
+  .hero-badge { padding: 6px 13px; font-size: 0.76rem; margin-bottom: 16px; }
+  .hero h1 { font-size: 1.9rem; margin-bottom: 12px; }
+  .hero p { font-size: 0.95rem; margin-bottom: 22px; }
+  .menu-grid { grid-template-columns: 1fr; gap: 16px; }
+  .menu-card-img { height: 160px; }
+  .menu-card-body { padding: 16px 18px 18px; }
+  .menu-card-body h3 { font-size: 1.1rem; }
+  .menu-card-body p { font-size: 0.86rem; }
+  .specialties-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .specialty-name { font-size: 0.95rem; }
+  .about-media .stamp-accent { width: 78px; height: 78px; font-size: 0.58rem; bottom: -14px; left: -14px; }
+  .about-media .stamp-accent strong { font-size: 1rem; }
+  .about-text p { font-size: 0.94rem; }
+  .about-stats { gap: 10px; }
+  .about-stats div { padding: 9px 13px; }
+  .about-stats div strong { font-size: 1.15rem; }
+  .about-stats div span { font-size: 0.68rem; }
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 130px; gap: 10px; }
+  .review-card { padding: 22px 18px; }
+  .review-card p.review-text { font-size: 0.88rem; }
   .hero-actions { flex-direction: column; align-items: stretch; }
   .hero-actions .btn { width: 100%; }
-  .about-stats { gap: 12px; }
-  .contact-section { border-radius: var(--radius-md); }
+  .contact-section { border-radius: var(--radius-md); padding: 36px 20px; }
+  .contact-section h2 { font-size: 1.7rem; }
   .contact-actions { flex-direction: column; align-items: stretch; }
   .contact-actions .btn { width: 100%; }
+  .contact-card { padding: 14px 16px; }
+  .location-info { padding: 24px 20px; }
   .review-slide { flex-basis: 82vw; }
   .cookie-banner { flex-direction: column; align-items: stretch; left: 12px; right: 12px; bottom: 12px; }
   .cookie-actions { justify-content: stretch; }
   .cookie-actions .btn { flex: 1; }
-  .whatsapp-float { width: 52px; height: 52px; bottom: 18px; right: 18px; }
+  .whatsapp-float { display: none; }
   .footer-bottom { flex-direction: column; text-align: center; }
 }
