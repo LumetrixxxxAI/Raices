@@ -579,8 +579,6 @@ h1, h2, h3, h4 {
 .gallery-head { display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 20px; margin-bottom: 40px; }
 .gallery-head .section-title { margin-bottom: 8px; }
 
-.ig-link { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; color: var(--ink); border-bottom: 2px solid var(--yellow); padding-bottom: 3px; }
-
 .gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 170px; gap: 18px; }
 
 .gallery-item {
