@@ -26,14 +26,16 @@ robots.txt, sitemap.xml
 
 ## Ya resuelto
 
-- Teléfono, dirección (Calle Juan Carlos I, 57 · Cártama) y horario (miércoles-domingo desde las 18:00, cerrado lunes y martes) actualizados en `index.html`, el mapa y `legal/aviso-legal.html`.
+- Teléfono, dirección (Calle Juan Carlos I, 57 · Cártama) y horario (miércoles-domingo 18:00–24:00, cerrado lunes y martes) actualizados en `index.html`, el mapa y `legal/aviso-legal.html`.
 - Carta completa alojada en `carta/carta-raices-cartama-2025.pdf` y enlazada desde el botón "Ver carta completa" (ya no depende de Google Drive).
-- Fotos reales en uso: hero, hamburguesa (menú + especialidad), pizza (menú + especialidad), patatas con pollo y queso, bocadillo tostado, e interior con el logo de la pared.
-- Sección "La carta" y "Especialidades" actualizadas con las categorías y platos **reales** de la carta descargada (Entrantes, Ensaladas, Camperos y bocadillos, Tex Mex, Pizzas, Hamburguesas). Se quitaron las categorías inventadas de cafés/desayunos, postres y bebidas, que no existen en la carta real.
+- Logo definitivo del cliente recortado en redondo (`img/logo-raices.png`) en cabecera, pie, páginas legales y favicon/apple-touch-icon.
+- Fotos reales en uso: hero, ambas pizzas de menú/galería, hamburguesas (menú, especialidad y trío gourmet), patatas con pollo y queso, bocadillo tostado, campero con patatas, mini brioche de pulled pork, pan de ajo, nachos (guacamole y con carne), e interior con el logo de la pared. Solo queda con placeholder la categoría de **ensaladas** (ninguna de las fotos recibidas hasta ahora es de una ensalada).
+- Sección "La carta" y "Especialidades" actualizadas con las categorías y platos **reales** de la carta descargada (Entrantes, Ensaladas, Camperos y bocadillos, Tex Mex, Pizzas, Hamburguesas).
+- Estilo actual: blanco y negro con el amarillo como único color de acento (antes probamos un tono cálido oscuro tipo madera/granate, pero no convenció).
 
 ## Pendiente antes de publicar
 
-- Fotos que aún faltan (siguen con placeholder `img/*.svg`): ensaladas, Tex Mex, nachos Raíces, hamburguesa de ternera Angus, y las 8 fotos de la galería/Instagram.
+- Foto de una ensalada (sigue con placeholder `img/menu-ensaladas.svg`).
 - Confirmar el número de **WhatsApp** (el 951 20 41 24 aportado parece un fijo, usado en la carta para "pide a domicilio"; los botones de WhatsApp siguen con el placeholder `34600000000`).
 - Confirmar si existe carta de bebidas/café aparte de la de comida (la carta descargada no incluye ninguna) — si no existe, revisar si el hero/textos deberían dejar de mencionar "café" tan explícitamente.
 - Enlazar la ficha real de Google Business (reseñas).
