@@ -353,27 +353,29 @@ h1, h2, h3, h4 {
 .marquee-track {
   display: flex;
   width: max-content;
-  animation: marquee 22s linear infinite;
+  animation: marquee 18s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 .marquee-track span {
   display: inline-flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   font-family: var(--font-display);
-  font-size: 1.3rem;
+  font-size: 1.05rem;
   color: var(--white);
-  padding: 4px 24px;
+  padding: 4px 40px;
   white-space: nowrap;
 }
 
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
 }
 
 @media (max-width: 640px) {
-  .marquee-track span { font-size: 1rem; padding: 4px 16px; }
+  .marquee-track span { font-size: 0.88rem; padding: 4px 22px; }
 }
 
 /* ==========================================================================
