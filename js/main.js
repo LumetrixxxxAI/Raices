@@ -1,4 +1,44 @@
 document.addEventListener('DOMContentLoaded', () => {
+  /* Marquee: rellena el ancho de pantalla sin dejar huecos ni repetir de más */
+  const marqueeStrip = document.querySelector('.marquee-strip');
+  const marqueeTrack = document.getElementById('marqueeTrack');
+  if (marqueeStrip && marqueeTrack) {
+    const buildMarquee = () => {
+      const firstGroup = marqueeTrack.querySelector('.marquee-group');
+      if (!firstGroup) return;
+      const phrase = firstGroup.querySelector('span');
+      if (!phrase) return;
+
+      marqueeTrack.style.animation = 'none';
+      marqueeTrack.innerHTML = '';
+
+      const group = document.createElement('div');
+      group.className = 'marquee-group';
+      group.appendChild(phrase.cloneNode(true));
+      marqueeTrack.appendChild(group);
+
+      const targetWidth = marqueeStrip.clientWidth;
+      let guard = 0;
+      while (group.scrollWidth < targetWidth && guard < 40) {
+        group.appendChild(phrase.cloneNode(true));
+        guard += 1;
+      }
+
+      marqueeTrack.appendChild(group.cloneNode(true));
+      // Forzar reflow antes de reactivar la animación
+      void marqueeTrack.offsetWidth;
+      marqueeTrack.style.animation = '';
+    };
+
+    buildMarquee();
+
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(buildMarquee, 200);
+    });
+  }
+
   /* Header scroll state */
   const header = document.querySelector('.site-header');
   const onScroll = () => {
