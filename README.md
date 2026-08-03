@@ -8,7 +8,8 @@ Web one-page para Raíces, hecha en HTML, CSS y JS puros (sin frameworks ni buil
 index.html
 css/style.css
 js/main.js
-img/            fotos y placeholders
+img/            fotos reales + placeholders pendientes
+carta/          PDF de la carta completa
 legal/          aviso legal, privacidad, cookies
 favicon.ico, apple-touch-icon.png, site.webmanifest
 robots.txt, sitemap.xml
@@ -23,11 +24,16 @@ robots.txt, sitemap.xml
 5. Espera 1-2 minutos: la web quedará publicada en `https://<usuario>.github.io/Raices/`.
 6. Si luego conectas un dominio propio, añádelo en la misma sección **Pages → Custom domain** (esto crea un archivo `CNAME` automáticamente).
 
-## Pendiente antes de publicar (ver también el aviso al final del chat)
+## Ya resuelto
 
-- Sustituir todas las imágenes placeholder (`img/*.svg`) por fotos reales.
-- Sustituir el teléfono, WhatsApp y dirección de ejemplo (`600 00 00 00` / `[DIRECCIÓN PENDIENTE]`) por los datos reales, en `index.html` y en `legal/aviso-legal.html`.
-- Enlazar el Google Drive real con la carta completa (botón "Ver carta completa").
-- Enlazar la ficha real de Google Business (reseñas y "Cómo llegar" ya usa un mapa genérico de Cártama; ajustar a la dirección exacta).
+- Teléfono, dirección (Calle Juan Carlos I, 57 · Cártama) y horario (miércoles-domingo desde las 18:00, cerrado lunes y martes) actualizados en `index.html`, el mapa y `legal/aviso-legal.html`.
+- Carta completa alojada en `carta/carta-raices-cartama-2025.pdf` y enlazada desde el botón "Ver carta completa" (ya no depende de Google Drive).
+- Fotos reales en uso: hero, hamburguesa (menú + especialidad), pizza (menú + especialidad), patatas con pollo y queso, bocadillo tostado, e interior con el logo de la pared.
+
+## Pendiente antes de publicar
+
+- Fotos que aún faltan (siguen con placeholder `img/*.svg`): café de especialidad, postre estrella, postres y bebidas de la carta, y las 8 fotos de la galería/Instagram.
+- Confirmar el número de **WhatsApp** (el 951 20 41 24 aportado parece un fijo; los botones de WhatsApp siguen con el placeholder `34600000000`).
+- Enlazar la ficha real de Google Business (reseñas).
 - Confirmar el usuario real de Instagram.
 - Completar los datos fiscales (razón social, NIF) en `legal/aviso-legal.html`.

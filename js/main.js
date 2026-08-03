@@ -39,32 +39,35 @@ document.addEventListener('DOMContentLoaded', () => {
     revealEls.forEach((el) => el.classList.add('is-visible'));
   }
 
-  /* Reviews carousel */
-  const track = document.querySelector('.reviews-slides');
-  const slides = document.querySelectorAll('.review-slide');
-  const dotsWrap = document.querySelector('.reviews-nav');
-  if (track && slides.length && dotsWrap) {
-    let current = 0;
-    const dots = [];
-    slides.forEach((_, i) => {
-      const dot = document.createElement('button');
-      dot.setAttribute('aria-label', `Ver reseña ${i + 1}`);
-      if (i === 0) dot.classList.add('active');
-      dot.addEventListener('click', () => goTo(i));
-      dotsWrap.appendChild(dot);
-      dots.push(dot);
+  /* Reviews carousel (scroll-snap + flechas) */
+  const reviewsTrack = document.getElementById('reviewsTrack');
+  if (reviewsTrack) {
+    document.querySelectorAll('.reviews-nav [data-scroll]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const slide = reviewsTrack.querySelector('.review-slide');
+        const step = slide ? slide.getBoundingClientRect().width + 20 : 300;
+        reviewsTrack.scrollBy({ left: step * Number(btn.dataset.scroll), behavior: 'smooth' });
+      });
     });
+  }
 
-    function goTo(index) {
-      current = (index + slides.length) % slides.length;
-      track.style.transform = `translateX(-${current * 100}%)`;
-      dots.forEach((d, i) => d.classList.toggle('active', i === current));
-    }
-
-    let autoplay = setInterval(() => goTo(current + 1), 6000);
-    dotsWrap.addEventListener('mouseenter', () => clearInterval(autoplay));
-    dotsWrap.addEventListener('mouseleave', () => {
-      autoplay = setInterval(() => goTo(current + 1), 6000);
+  /* Modal para llamar */
+  const callBtn = document.getElementById('callBtn');
+  const callModal = document.getElementById('callModal');
+  const callModalClose = document.getElementById('callModalClose');
+  const callModalCopy = document.getElementById('callModalCopy');
+  const callModalMsg = document.getElementById('callModalMsg');
+  if (callBtn && callModal) {
+    callBtn.addEventListener('click', () => callModal.classList.add('show'));
+    callModalClose.addEventListener('click', () => callModal.classList.remove('show'));
+    callModal.addEventListener('click', (e) => {
+      if (e.target === callModal) callModal.classList.remove('show');
+    });
+    callModalCopy.addEventListener('click', () => {
+      navigator.clipboard.writeText('951204124').then(() => {
+        callModalMsg.textContent = 'Número copiado ✓';
+        setTimeout(() => { callModalMsg.textContent = ''; }, 2500);
+      });
     });
   }
 

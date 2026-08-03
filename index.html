@@ -38,10 +38,10 @@
   "image": "https://lumetrixxxxai.github.io/Raices/img/og-image.jpg",
   "servesCuisine": ["Cafetería", "Pizzería", "Hamburguesería", "Brunch"],
   "priceRange": "€€",
-  "telephone": "+34600000000",
+  "telephone": "+34951204124",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "[DIRECCIÓN PENDIENTE]",
+    "streetAddress": "Calle Juan Carlos I, 57",
     "addressLocality": "Cártama",
     "addressRegion": "Málaga",
     "postalCode": "29570",
@@ -50,15 +50,8 @@
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Tuesday","Wednesday","Thursday","Sunday"],
-      "opens": "09:00",
-      "closes": "23:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Friday","Saturday"],
-      "opens": "09:00",
-      "closes": "00:00"
+      "dayOfWeek": ["Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "18:00"
     }
   ],
   "sameAs": [
@@ -101,23 +94,20 @@
 
 <!-- ============ HERO ============ -->
 <section class="hero" id="inicio">
-  <div class="hero-media">
-    <!-- PLACEHOLDER: sustituir por foto real de hamburguesa/pizza estrella o fachada del local -->
-    <img src="img/hero-bg.svg" alt="Hamburguesa y pizza recién hechas en Raíces, Cártama">
-  </div>
   <div class="container hero-content">
-    <span class="hero-badge">⭐ 4,7 en Google</span>
-    <h1>Pizza, burgers y café <em>sin filtros</em> en el corazón de Cártama.</h1>
-    <p>Sabor de food truck, ingredientes de verdad y cero postureo. Ven con hambre — aquí se come con las manos.</p>
-    <div class="hero-actions">
-      <a href="#carta" class="btn btn-outline">Ver la carta</a>
-      <a href="https://wa.me/34600000000?text=Hola%20Ra%C3%ADces%2C%20quiero%20reservar%20mesa" class="btn btn-primary">Reservar / Pedir por WhatsApp</a>
+    <div class="hero-text">
+      <span class="hero-badge">⭐ 4,7 en Google</span>
+      <h1>Pizza, burgers y café <em>sin filtros</em> en el corazón de Cártama.</h1>
+      <p>Sabor de food truck, ingredientes de verdad y cero postureo. Ven con hambre — aquí se come con las manos.</p>
+      <div class="hero-actions">
+        <a href="#carta" class="btn btn-outline">Ver la carta</a>
+        <a href="https://wa.me/34600000000?text=Hola%20Ra%C3%ADces%2C%20quiero%20reservar%20mesa" class="btn btn-primary">Reservar / Pedir por WhatsApp</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <img src="img/raices-hamburguesa-cesta.jpg" alt="Hamburguesa de la casa con patatas fritas en Raíces, Cártama">
     </div>
   </div>
-  <a href="#carta" class="scroll-cue" aria-label="Bajar a la carta">
-    <span>Scroll</span>
-    <span class="line"></span>
-  </a>
 </section>
 
 <div class="marquee-strip" aria-hidden="true">
@@ -142,8 +132,7 @@
       <article class="menu-card">
         <div class="menu-card-img">
           <span class="menu-card-tag">Desayunos</span>
-          <!-- PLACEHOLDER: foto de cafés y desayunos -->
-          <img src="img/menu-cafe-desayunos.svg" alt="Cafés y desayunos en Raíces" loading="lazy">
+          <img src="img/raices-bocadillo-tostado.jpg" alt="Bocadillo tostado de desayuno en Raíces" loading="lazy">
         </div>
         <div class="menu-card-body">
           <h3>Cafés y desayunos</h3>
@@ -155,8 +144,7 @@
       <article class="menu-card">
         <div class="menu-card-img">
           <span class="menu-card-tag">Al horno</span>
-          <!-- PLACEHOLDER: foto de pizzas -->
-          <img src="img/menu-pizzas.svg" alt="Pizzas artesanas en Raíces" loading="lazy">
+          <img src="img/raices-pizza-cerveza.jpg" alt="Pizza artesana con cerveza en Raíces" loading="lazy">
         </div>
         <div class="menu-card-body">
           <h3>Pizzas</h3>
@@ -168,8 +156,7 @@
       <article class="menu-card">
         <div class="menu-card-img">
           <span class="menu-card-tag">Lo más pedido</span>
-          <!-- PLACEHOLDER: foto de hamburguesas -->
-          <img src="img/menu-hamburguesas.svg" alt="Hamburguesas caseras en Raíces" loading="lazy">
+          <img src="img/raices-hamburguesa-cesta.jpg" alt="Hamburguesa casera con patatas en Raíces" loading="lazy">
         </div>
         <div class="menu-card-body">
           <h3>Hamburguesas</h3>
@@ -181,8 +168,7 @@
       <article class="menu-card">
         <div class="menu-card-img">
           <span class="menu-card-tag">Para compartir</span>
-          <!-- PLACEHOLDER: foto de entrantes / para picar -->
-          <img src="img/menu-para-picar.svg" alt="Entrantes para picar en Raíces" loading="lazy">
+          <img src="img/raices-patatas-pollo-queso.jpg" alt="Patatas con pollo y queso gratinado en Raíces" loading="lazy">
         </div>
         <div class="menu-card-body">
           <h3>Para picar</h3>
@@ -219,14 +205,13 @@
     </div>
 
     <div class="menu-cta reveal">
-      <!-- PLACEHOLDER: sustituir "#" por el enlace real de Google Drive con la carta completa -->
-      <a href="#" target="_blank" rel="noopener" class="btn btn-dark">Ver carta completa</a>
+      <a href="carta/carta-raices-cartama-2025.pdf" target="_blank" rel="noopener" class="btn btn-dark">Ver carta completa</a>
       <p>Precios orientativos. Consulta la carta actualizada en el local.</p>
     </div>
   </div>
 </section>
 
-<div class="zig-divider" style="--zig-from: var(--paper); --zig-to: var(--black);"></div>
+<div class="zigzag" style="--zig: var(--paper-alt);"></div>
 
 <!-- ============ ESPECIALIDADES ============ -->
 <section class="specialties-section section-pad" id="especialidades">
@@ -240,14 +225,12 @@
     <div class="specialties-grid reveal-stagger">
       <div class="specialty-card">
         <span class="specialty-badge">Top ventas</span>
-        <!-- PLACEHOLDER: foto de la hamburguesa de la casa -->
-        <img src="img/especialidad-hamburguesa-casa.svg" alt="Hamburguesa de la casa Raíces" loading="lazy">
+        <img src="img/raices-interior-marca.jpg" alt="Hamburguesa de la casa Raíces" loading="lazy">
         <span class="specialty-name">Hamburguesa de la Casa</span>
       </div>
       <div class="specialty-card">
         <span class="specialty-badge">Favorita</span>
-        <!-- PLACEHOLDER: foto de la pizza favorita -->
-        <img src="img/especialidad-pizza-favorita.svg" alt="Pizza favorita Raíces" loading="lazy">
+        <img src="img/raices-pizza-cerveza.jpg" alt="Pizza favorita Raíces" loading="lazy">
         <span class="specialty-name">Pizza Burrata & Trufa</span>
       </div>
       <div class="specialty-card">
@@ -266,14 +249,13 @@
   </div>
 </section>
 
-<div class="zig-divider" style="--zig-from: var(--black); --zig-to: var(--paper);"></div>
+<div class="zigzag" style="--zig: var(--paper);"></div>
 
 <!-- ============ SOBRE RAÍCES ============ -->
 <section class="section-pad" id="sobre-nosotros">
   <div class="container about-section">
     <div class="about-media reveal">
-      <!-- PLACEHOLDER: foto de interior urbano, neón, ladrillo visto, arte callejero -->
-      <img src="img/sobre-raices-interior.svg" alt="Interior urbano de Raíces con neón y arte callejero">
+      <img src="img/raices-interior-marca.jpg" alt="Rincón de Raíces con el logo en la pared de ladrillo, luces y plantas">
       <div class="stamp-accent"><strong>100%</strong> CASERO</div>
     </div>
     <div class="about-text reveal">
@@ -289,8 +271,6 @@
     </div>
   </div>
 </section>
-
-<div class="zig-divider" style="--zig-from: var(--paper); --zig-to: var(--black);"></div>
 
 <!-- ============ GALERÍA / INSTAGRAM ============ -->
 <section class="gallery-section section-pad" id="galeria">
@@ -318,7 +298,7 @@
   </div>
 </section>
 
-<div class="zig-divider" style="--zig-from: var(--black); --zig-to: var(--paper);"></div>
+<div class="zigzag" style="--zig: var(--paper-alt);"></div>
 
 <!-- ============ OPINIONES ============ -->
 <section class="reviews-section section-pad" id="resenas">
@@ -329,35 +309,33 @@
     </div>
 
     <div class="reviews-track-wrap reveal">
-      <div class="reviews-track">
-        <div class="reviews-slides">
-          <div class="review-slide">
-            <div class="review-card">
-              <div class="review-quote">"</div>
-              <div class="review-stars">★★★★★</div>
-              <p class="review-text">La hamburguesa de la casa es una locura y el ambiente engancha, con la madera y las plantas se siente súper acogedor. Repetiremos seguro.</p>
-              <div class="review-author">Marta G. <span>Google Reviews</span></div>
-            </div>
+      <div class="reviews-track" id="reviewsTrack">
+        <div class="review-slide">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">La hamburguesa de la casa es una locura y el ambiente engancha, con la madera y las plantas se siente súper acogedor. Repetiremos seguro.</p>
+            <div class="review-author">Marta G. <span>Google Reviews</span></div>
           </div>
-          <div class="review-slide">
-            <div class="review-card">
-              <div class="review-quote">"</div>
-              <div class="review-stars">★★★★★</div>
-              <p class="review-text">Descubrí el café de especialidad aquí y ya no hay vuelta atrás. Buen trato, buena música y las tostas de desayuno están riquísimas.</p>
-              <div class="review-author">Álvaro R. <span>Google Reviews</span></div>
-            </div>
+        </div>
+        <div class="review-slide">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Descubrí el café de especialidad aquí y ya no hay vuelta atrás. Buen trato, buena música y las tostas de desayuno están riquísimas.</p>
+            <div class="review-author">Álvaro R. <span>Google Reviews</span></div>
           </div>
-          <div class="review-slide">
-            <div class="review-card">
-              <div class="review-quote">"</div>
-              <div class="review-stars">★★★★★</div>
-              <p class="review-text">Pedimos la pizza para llevar un viernes y desde entonces es fija en casa. Producto de calidad y siempre con una sonrisa.</p>
-              <div class="review-author">Lucía M. <span>Google Reviews</span></div>
-            </div>
+        </div>
+        <div class="review-slide">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Pedimos la pizza para llevar un viernes y desde entonces es fija en casa. Producto de calidad y siempre con una sonrisa.</p>
+            <div class="review-author">Lucía M. <span>Google Reviews</span></div>
           </div>
         </div>
       </div>
-      <div class="reviews-nav"></div>
+      <div class="reviews-nav">
+        <button type="button" data-scroll="-1" aria-label="Reseña anterior">←</button>
+        <button type="button" data-scroll="1" aria-label="Siguiente reseña">→</button>
+      </div>
       <div style="text-align:center;">
         <!-- PLACEHOLDER: sustituir por el enlace real a las reseñas de Google del negocio -->
         <a href="#" target="_blank" rel="noopener" class="reviews-google">Ver todas las reseñas en Google →</a>
@@ -375,8 +353,8 @@
           <span class="eyebrow">Pedidos y contacto</span>
           <h2 class="section-title">Para llevar o <em>para quedarte</em></h2>
           <p class="section-sub">Llámanos, escríbenos por WhatsApp o pásate directamente. Hacemos pedidos para recoger y también servimos en mesa.</p>
-          <!-- PLACEHOLDER: sustituir por el teléfono real -->
-          <a href="tel:+34600000000" class="contact-phone">600 00 00 00 <span>Toca para llamar</span></a>
+          <button type="button" class="contact-phone" id="callBtn">951 20 41 24 <span>Toca para llamar</span></button>
+          <!-- PLACEHOLDER: el 951 20 41 24 parece un fijo; confirmar el número de WhatsApp (puede ser distinto) -->
           <div class="contact-actions">
             <a href="https://wa.me/34600000000?text=Hola%20Ra%C3%ADces%2C%20quiero%20hacer%20un%20pedido" class="btn btn-primary">WhatsApp</a>
             <a href="https://www.instagram.com/cafeteria_pizzeria_raices/" target="_blank" rel="noopener" class="btn btn-outline">Instagram</a>
@@ -411,36 +389,28 @@
 
     <div class="location-grid reveal">
       <div class="location-map">
-        <!-- Mapa genérico de Cártama; sustituir por la dirección exacta cuando se confirme -->
-        <iframe src="https://www.google.com/maps?q=C%C3%A1rtama,%20M%C3%A1laga&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de ubicación de Raíces en Cártama"></iframe>
+        <iframe src="https://www.google.com/maps?q=Calle%20Juan%20Carlos%20I%2057,%20C%C3%A1rtama,%20M%C3%A1laga&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de ubicación de Raíces en Cártama"></iframe>
       </div>
       <div class="location-info">
         <h3>Raíces Cafetería-Pizzería</h3>
         <div class="location-row">
           <span class="icon">📍</span>
-          <!-- PLACEHOLDER: dirección exacta del local -->
-          <div>[DIRECCIÓN PENDIENTE] · 29570 Cártama, Málaga</div>
+          <div>Calle Juan Carlos I, 57 · 29570 Cártama, Málaga</div>
         </div>
         <div class="location-row">
           <span class="icon">🕒</span>
           <div style="width:100%;">
             <table class="hours-table">
-              <tr><td>Martes – Jueves</td><td>9:00 – 23:00</td></tr>
-              <tr><td>Viernes – Sábado</td><td>9:00 – 00:00</td></tr>
-              <tr><td>Domingo</td><td>9:00 – 23:00</td></tr>
-              <tr><td>Lunes</td><td>Cerrado</td></tr>
+              <tr><td>Miércoles – Domingo</td><td>Desde las 18:00</td></tr>
+              <tr><td>Lunes y Martes</td><td>Cerrado</td></tr>
             </table>
-            <span style="font-size:0.78rem;color:var(--ink-soft);">Horario orientativo, confirmar horario real</span>
           </div>
         </div>
-        <!-- PLACEHOLDER: enlace "Cómo llegar" con la dirección exacta -->
-        <a href="https://www.google.com/maps/dir/?api=1&destination=C%C3%A1rtama,%20M%C3%A1laga" target="_blank" rel="noopener" class="btn btn-dark" style="margin-top:10px;">Cómo llegar</a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Calle+Juan+Carlos+I+57,+C%C3%A1rtama,+M%C3%A1laga" target="_blank" rel="noopener" class="btn btn-dark" style="margin-top:10px;">Cómo llegar</a>
       </div>
     </div>
   </div>
 </section>
-
-<div class="zig-divider" style="--zig-from: var(--paper); --zig-to: var(--black);"></div>
 
 <!-- ============ FOOTER ============ -->
 <footer class="site-footer">
@@ -481,6 +451,18 @@
 
 <!-- WhatsApp flotante -->
 <a href="https://wa.me/34600000000?text=Hola%20Ra%C3%ADces%2C%20quiero%20hacer%20una%20consulta" class="whatsapp-float" aria-label="Escríbenos por WhatsApp" target="_blank" rel="noopener">💬</a>
+
+<!-- Modal para llamar -->
+<div class="call-modal" id="callModal">
+  <div class="call-modal-box">
+    <button type="button" class="call-modal-close" id="callModalClose" aria-label="Cerrar">✕</button>
+    <span class="call-modal-icon">📞</span>
+    <h3>Llamar a Raíces</h3>
+    <a href="tel:+34951204124" class="call-modal-number">951 20 41 24</a>
+    <button type="button" class="btn btn-primary btn-block" id="callModalCopy" style="width:100%;">Copiar número</button>
+    <div class="call-modal-copy-msg" id="callModalMsg"></div>
+  </div>
+</div>
 
 <!-- Banner de cookies -->
 <div class="cookie-banner">
