@@ -91,26 +91,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* Modal para llamar */
-  const callTriggers = document.querySelectorAll('#callBtn, .js-call-trigger');
-  const callModal = document.getElementById('callModal');
-  const callModalClose = document.getElementById('callModalClose');
-  const callModalCopy = document.getElementById('callModalCopy');
-  const callModalMsg = document.getElementById('callModalMsg');
-  if (callTriggers.length && callModal) {
-    callTriggers.forEach((btn) => btn.addEventListener('click', () => callModal.classList.add('show')));
-    callModalClose.addEventListener('click', () => callModal.classList.remove('show'));
-    callModal.addEventListener('click', (e) => {
-      if (e.target === callModal) callModal.classList.remove('show');
-    });
-    callModalCopy.addEventListener('click', () => {
-      navigator.clipboard.writeText('951204124').then(() => {
-        callModalMsg.textContent = 'Número copiado ✓';
-        setTimeout(() => { callModalMsg.textContent = ''; }, 2500);
-      });
-    });
-  }
-
   /* Cookie banner */
   const cookieBanner = document.querySelector('.cookie-banner');
   const cookieKey = 'raices-cookie-consent';

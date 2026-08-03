@@ -674,20 +674,7 @@ h1, h2, h3, h4 {
 .contact-section h2 em { color: var(--yellow); }
 .contact-section p.section-sub { color: var(--ink-soft); }
 
-.contact-phone {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 12px;
-  font-family: var(--font-display);
-  font-size: clamp(2rem, 3.6vw, 2.7rem);
-  color: var(--yellow);
-  margin: 20px 0 28px;
-  cursor: pointer;
-}
-
-.contact-phone span { font-size: 0.9rem; font-family: var(--font-sans); font-weight: 700; text-transform: uppercase; color: var(--ink-soft); }
-
-.contact-actions { display: flex; flex-wrap: wrap; gap: 16px; }
+.contact-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 26px; }
 
 .contact-cards { display: grid; gap: 16px; }
 
@@ -839,65 +826,6 @@ h1, h2, h3, h4 {
 }
 
 .whatsapp-float:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
-
-/* ==========================================================================
-   Call modal (click-to-call)
-   ========================================================================== */
-
-.call-modal {
-  display: none;
-  position: fixed;
-  inset: 0;
-  z-index: 1300;
-  background: rgba(0,0,0,0.75);
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-
-.call-modal.show { display: flex; }
-
-.call-modal-box {
-  position: relative;
-  background: var(--card);
-  border: var(--border);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow);
-  padding: 40px 30px 30px;
-  max-width: 340px;
-  width: 100%;
-  text-align: center;
-}
-
-.call-modal-close {
-  position: absolute;
-  top: 14px; right: 14px;
-  width: 32px; height: 32px;
-  border-radius: 50%;
-  border: 1.5px solid rgba(255,255,255,0.35);
-  background: var(--paper-alt);
-  color: var(--ink);
-  font-size: 0.9rem;
-  font-weight: 700;
-  display: flex; align-items: center; justify-content: center;
-}
-
-.call-modal-icon { font-size: 2.2rem; display: block; margin-bottom: 8px; }
-.call-modal-box h3 { font-family: var(--font-display); font-size: 1.3rem; margin-bottom: 16px; }
-
-.call-modal-number {
-  font-family: var(--font-display);
-  font-size: 1.8rem;
-  color: var(--yellow);
-  background: var(--paper-alt);
-  border: 2px dashed rgba(255,255,255,0.25);
-  border-radius: var(--radius-sm);
-  padding: 12px 10px;
-  margin-bottom: 18px;
-  display: block;
-}
-
-.call-modal-copy-msg { font-size: 0.8rem; font-weight: 700; color: var(--yellow); margin-top: 10px; min-height: 1.2em; }
 
 /* ==========================================================================
    Cookie banner
