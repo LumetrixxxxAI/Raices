@@ -92,13 +92,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /* Modal para llamar */
-  const callBtn = document.getElementById('callBtn');
+  const callTriggers = document.querySelectorAll('#callBtn, .js-call-trigger');
   const callModal = document.getElementById('callModal');
   const callModalClose = document.getElementById('callModalClose');
   const callModalCopy = document.getElementById('callModalCopy');
   const callModalMsg = document.getElementById('callModalMsg');
-  if (callBtn && callModal) {
-    callBtn.addEventListener('click', () => callModal.classList.add('show'));
+  if (callTriggers.length && callModal) {
+    callTriggers.forEach((btn) => btn.addEventListener('click', () => callModal.classList.add('show')));
     callModalClose.addEventListener('click', () => callModal.classList.remove('show'));
     callModal.addEventListener('click', (e) => {
       if (e.target === callModal) callModal.classList.remove('show');
