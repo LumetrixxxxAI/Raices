@@ -192,10 +192,16 @@ h1, h2, h3, h4 {
   color: var(--ink);
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
-.logo .flame { color: var(--yellow); }
+.logo-img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
 
 .nav-links {
   display: flex;
