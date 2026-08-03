@@ -1,20 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img" aria-label="FOTO">
   <defs>
-    <linearGradient id="g-galeria-1.svg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#141414"/>
-      <stop offset="100%" stop-color="#332200"/>
-    </linearGradient>
-    <pattern id="dots-galeria-1.svg" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.8" fill="rgba(255,221,0,0.16)"/>
+    <pattern id="dots-galeria-1.svg" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="rgba(32,26,18,0.07)"/>
     </pattern>
   </defs>
-  <rect width="500" height="500" fill="url(#g-galeria-1.svg)"/>
+  <rect width="500" height="500" fill="#F5EEDD"/>
   <rect width="500" height="500" fill="url(#dots-galeria-1.svg)"/>
-  <rect x="10" y="10" width="480" height="480" fill="none" stroke="#FFDD00" stroke-width="4" stroke-dasharray="14 10"/>
+  <rect x="8" y="8" width="484" height="484" fill="none" stroke="#201A12" stroke-width="3"/>
   <g transform="translate(250, 250)" text-anchor="middle" font-family="Arial, sans-serif">
-    <circle r="71.42857142857143" fill="rgba(255,221,0,0.14)" stroke="#FFDD00" stroke-width="2.5"/>
-    <text y="8" font-size="76.92307692307692" fill="#FFDD00">📷</text>
-    <text y="125" font-size="25" font-weight="900" fill="#FFDD00" style="letter-spacing:0.5px">FOTO</text>
-    <text y="147" font-size="12" fill="#FFFFFF" opacity="0.85">Galería 1</text>
+    <circle r="71.42857142857143" fill="#15897C" fill-opacity="0.16" stroke="#15897C" stroke-width="2.5"/>
+    <text y="8" font-size="76.92307692307692" fill="#15897C">📷</text>
+    <text y="123" font-size="23" font-weight="800" fill="#201A12" style="letter-spacing:0.4px">FOTO</text>
+    <text y="142" font-size="11" fill="#201A12" opacity="0.65">Galería 1</text>
   </g>
 </svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450" role="img" aria-label="FOTO PENDIENTE">
+  <defs>
+    <pattern id="dots-menu-ensaladas.svg" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="rgba(32,26,18,0.07)"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="450" fill="#F5EEDD"/>
+  <rect width="600" height="450" fill="url(#dots-menu-ensaladas.svg)"/>
+  <rect x="8" y="8" width="584" height="434" fill="none" stroke="#201A12" stroke-width="3"/>
+  <g transform="translate(300, 225)" text-anchor="middle" font-family="Arial, sans-serif">
+    <circle r="64.28571428571429" fill="#E0527A" fill-opacity="0.16" stroke="#E0527A" stroke-width="2.5"/>
+    <text y="8" font-size="69.23076923076923" fill="#E0527A">📷</text>
+    <text y="117" font-size="27" font-weight="800" fill="#201A12" style="letter-spacing:0.4px">FOTO PENDIENTE</text>
+    <text y="138" font-size="13" fill="#201A12" opacity="0.65">Ensaladas</text>
+  </g>
+</svg>
