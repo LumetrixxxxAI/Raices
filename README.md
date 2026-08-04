@@ -32,10 +32,10 @@ robots.txt, sitemap.xml
 - Fotos reales en uso: hero, ambas pizzas de menú/galería, hamburguesas (menú, especialidad y trío gourmet), patatas con pollo y queso, bocadillo tostado, campero con patatas, mini brioche de pulled pork, pan de ajo, nachos (guacamole y con carne), ensalada (`img/raices-ensalada-cesar.jpg`, foto que eligió el cliente), e interior con el logo de la pared. Ya no queda ninguna categoría con placeholder.
 - Sección "La carta" y "Especialidades" actualizadas con las categorías y platos **reales** de la carta descargada (Entrantes, Ensaladas, Camperos y bocadillos, Tex Mex, Pizzas, Hamburguesas).
 - Estilo actual: blanco y negro con el amarillo como único color de acento (antes probamos un tono cálido oscuro tipo madera/granate, pero no convenció). Confirmado como definitivo por el cliente.
+- El negocio **no tiene WhatsApp**: se quitaron todos los botones, enlaces e iconos de WhatsApp (incluido el botón flotante) y se sustituyeron por llamada directa (`tel:+34951204124`). Los botones "WhatsApp" e "Llamar" de la sección de contacto pasaron a ser "Reservar" y "Pedir", ambos llamando al mismo teléfono.
 
 ## Pendiente antes de publicar
 
-- Confirmar el número de **WhatsApp** (el 951 20 41 24 aportado parece un fijo, usado en la carta para "pide a domicilio"; los botones de WhatsApp siguen con el placeholder `34600000000`).
 - Confirmar si existe carta de bebidas/café aparte de la de comida (la carta descargada no incluye ninguna) — si no existe, revisar si el hero/textos deberían dejar de mencionar "café" tan explícitamente.
 - Enlazar la ficha real de Google Business (reseñas).
 - Completar los datos fiscales (razón social, NIF) en `legal/aviso-legal.html`.
