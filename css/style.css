@@ -651,9 +651,9 @@ h1, h2, h3, h4 {
   color: var(--ink);
   border: 2px solid var(--yellow);
   border-radius: var(--radius-lg);
-  margin: 0 16px;
+  margin: 0 8px;
   width: auto;
-  padding: 80px 60px;
+  padding: 96px 72px;
   box-shadow: var(--shadow);
 }
 
