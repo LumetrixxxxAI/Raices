@@ -392,8 +392,8 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 640px) {
-  .marquee-strip { padding: 6px 0; border-top-width: 1px; border-bottom-width: 1px; }
-  .marquee-track span { font-size: 0.7rem; padding: 2px 14px; gap: 6px; }
+  .marquee-strip { padding: 2px 0; border-top-width: 1px; border-bottom-width: 1px; }
+  .marquee-track span { font-size: 0.58rem; padding: 0 8px; gap: 4px; }
 }
 
 /* ==========================================================================
