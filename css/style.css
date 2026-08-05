@@ -864,8 +864,8 @@ h1, h2, h3, h4 {
   .hero-badge { padding: 4px 10px; font-size: 0.62rem; margin-bottom: 10px; }
   .hero h1 { font-size: 1.32rem; margin-bottom: 8px; }
   .hero p { font-size: 0.8rem; margin-bottom: 14px; }
-  .menu-grid { grid-template-columns: 1fr; gap: 12px; }
-  .menu-card-img { height: 122px; }
+  .menu-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .menu-card-img { height: 130px; }
   .menu-card-body { padding: 11px 13px; }
   .menu-card-body h3 { font-size: 0.92rem; }
   .menu-card-body p { font-size: 0.75rem; }
